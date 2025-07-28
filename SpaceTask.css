@@ -1,0 +1,26 @@
+body{
+    height: 3000px;
+    width:100%;
+    background-image: url(../../../assets/images/Sun.png),url(../../../assets/images/Earth.png),url(../../../assets/images/Moon.png),url(../../../assets/images/Satellite.png),url(../../../assets/images/space.png);
+    background-size:30%,15%,8%,10%,100%;
+    background-position: -20% -95%,bottom left,15% 93%, 20% 97%,center;
+    background-repeat: no-repeat,no-repeat,no-repeat,no-repeat,repeat;
+    background-attachment: fixed,scroll,scroll,scroll,scroll;
+}   
+#rocket_marquee{
+    width: 20%;
+    height: 3000px;
+    float:right;
+}
+#rocket_image{
+    width: 100%;
+}
+#parent_marquee{
+ width: 80%;
+}
+#child_marquee{
+    height: 3000px;
+}
+#astronaut_image{
+    width: 10%;
+}
